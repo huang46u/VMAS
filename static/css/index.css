@@ -133,5 +133,25 @@ body {
   font-size: smaller;
 }
 
+.image-container {
+  display: flex; /* 让图片水平排列 */
+  justify-content: center; /* 居中对齐 */
+  align-items: center; /* 垂直居中对齐 */
+  gap: 10px; /* 设置图片之间的间距 */
+}
 
+.image-container img {
+  object-fit: contain; /* 确保图片内容完整显示 */
+}
 
+/* 单独调整第一张图片 */
+.image1 {
+  width: 700px; /* 设置第一张图片的宽度 */
+  height: auto; /* 高度根据宽度自动调整 */
+}
+
+/* 单独调整第二张图片 */
+.image2 {
+  width: 700px; /* 设置第二张图片的宽度 */
+  height: auto; /* 高度根据宽度自动调整 */
+}
